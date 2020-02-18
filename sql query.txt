@@ -1,0 +1,23 @@
+use guestlecture;
+
+fullName,eventfullName,email,location,dateon,hrs,choicedept
+create table guestlecture
+(
+	id serial unique not null,
+	fullName varchar(20),
+    eventfullName varchar(20),
+    email varchar(20),
+    location varchar(20),
+    dateon varchar(20),
+    hrs varchar(20),
+    choicedept varchar(20)
+);
+
+drop table guestlecture
+
+show tables;
+
+select * from guestlecture;
+
+DELETE FROM guestlecture WHERE fullName='Anvitha Yathigiri'
+DELETE FROM guestlecture WHERE id='1';

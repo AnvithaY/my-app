@@ -1,0 +1,39 @@
+.one{
+  color:black;
+}
+.myButton {
+  width:400px;
+
+	box-shadow: 0 0 0 0 #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:13px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:11px 76px;
+	text-decoration:none;
+	text-shadow:0 0 0 #ffffff;
+}
+h1{
+  color:white;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+body{
+  width:50%;
+  margin:auto;
+  text-align: center;
+  background-image: url(images/background.png)
+}
