@@ -128,7 +128,7 @@ class Register extends Component {
     return (<center>
       <div className='wrapper'>
         <div className='form-wrapper'>
-          <h2>ADDING a Guest Lecture</h2>
+          <h2>Adding a Guest Lecture</h2>
           <form onSubmit={this.handleSubmit} noValidate>
             <div className='fullName'>
               <label htmlFor="fullName"> Name</label>
