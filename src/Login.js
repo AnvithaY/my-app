@@ -35,7 +35,7 @@ handleSubmit= (e)=>{
   return (
     <div className="App wrapper">
         <form className="form-wrapper" method='post' onSubmit={this.handleSubmit}>
-        <h2>Login Page</h2>
+        <h2>LOGIN PAGE</h2>
             <div className='name'>
               <label htmlFor='name'>Enter Name:</label>
               <input type='text' name='name' onChange={this.handleChange}/>
